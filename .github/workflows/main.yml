@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Brand Name</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Your Brand</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#products">Shop</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Bold. Modern. Yours.</h2>
+    <p>Streetwear redefined. Discover your look today.</p>
+    <a href="#products" class="btn">Shop Now</a>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We are a fashion-forward clothing brand built on creativity, culture, and comfort. Each piece is made to elevate your everyday style.</p>
+  </section>
+
+  <section id="products">
+    <h2>Featured Products</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="tshirt.jpg" alt="T-Shirt">
+        <h3>Signature Tee</h3>
+        <p>$29.99</p>
+      </div>
+      <div class="product-card">
+        <img src="hoodie.jpg" alt="Hoodie">
+        <h3>Classic Hoodie</h3>
+        <p>$59.99</p>
+      </div>
+      <!-- Add more products here -->
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email us at <a href="mailto:info@yourbrand.com">info@yourbrand.com</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Your Brand. All rights reserved.</p>
+  </footer>
+</body>
+</html>body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: #fff;
+  color: #222;
+}
+
+header {
+  background: #000;
+  color: #fff;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: #fff;
+  margin-left: 1em;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 4em 1em;
+  background: #f4f4f4;
+}
+
+.btn {
+  background: #000;
+  color: #fff;
+  padding: 0.75em 1.5em;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1em;
+}
+
+section {
+  padding: 2em 1em;
+  max-width: 800px;
+  margin: auto;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
+}
+
+.product-card {
+  width: 200px;
+  border: 1px solid #ddd;
+  padding: 1em;
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  margin-top: 2em;
+}
